@@ -1,0 +1,78 @@
+section {
+  border: 1px solid black;
+}
+
+.s1 > h2 {
+  color: blue;
+}
+
+.s1 > p {
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.s2 > .bluetext {
+  color: blue;
+}
+
+.s3 .bluetext {
+  color: blue;
+}
+
+.s4 .bluetext {
+  color: blue;
+}
+
+.s4 .redtext {
+  color: red;
+}
+
+.s4 .accent {
+  background-color: #222;
+  color: #fff;
+  padding: 5px;
+}
+.s5 .bluetext {
+  color: blue;
+}
+
+.s5 .browntext {
+  color: brown;
+}
+
+.s5 .boldtext {
+  font-weight: bold;
+}
+
+.s5 .accent {
+  background-color: #222;
+  color: #fff;
+  padding: 5px;
+}
+
+.s6 #container {
+  width: 600px;
+  padding: 15px;
+  border: 1px dotted gray;
+}
+.s6 .bluetext {
+  color: blue;
+}
+
+.s6 .browntext {
+  color: brown;
+}
+
+.s6 .boldtext {
+  font-weight: bold;
+}
+
+.s6 .accent {
+  background-color: #222;
+  color: #fff;
+  padding: 5px;
+}
+
+.s7 .underline {
+  text-decoration: underline;
+}
