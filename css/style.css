@@ -1,0 +1,40 @@
+/* External CSS */
+h3 {
+    text-align: center;
+  }
+  .d1 {
+    width: 300px;
+    margin: auto;
+    background-color: #fff4a3;
+  }
+  div {
+    width: 100%;
+  }
+  div.mycontainer {
+    width: 100%;
+    overflow: auto;
+  }
+  div.mycontainer div {
+    width: 33%;
+    float: left;
+  }
+  div.mycontainer1 div {
+    width: 30%;
+    display: inline-block;
+  }
+  .mycontainer2 {
+    display: flex;
+  }
+  .mycontainer2 > div {
+    width: 33%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+  section {
+    border: 1px solid black;
+  }
+  .d2 {
+    background-color: #fff4a3;
+}
