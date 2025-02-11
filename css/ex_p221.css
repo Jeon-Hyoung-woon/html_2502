@@ -1,0 +1,33 @@
+section {
+  border: 1px solid black;
+  width: 50%;
+}
+p {
+  margin-left: 10px;
+}
+.s1 h1 {
+  font-size: 3em;
+}
+
+.s1 p {
+  font-size: 1em;
+}
+
+.s2 .accent {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.s3 p {
+  font-style: italic;
+}
+
+.s3 .txt {
+  font-style: normal;
+}
+
+.s5 .accent {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
