@@ -13,7 +13,7 @@ section {
   text-align: left;
   padding: 8px;
 }
-
+/* odd : 홀수, even : 짝수 */
 .s1 tr:nth-child(even) {
   background-color: #d6eeee;
 }
