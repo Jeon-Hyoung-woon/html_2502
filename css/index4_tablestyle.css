@@ -5,6 +5,7 @@ section {
 .s1 table {
   border-collapse: collapse;
   width: 60%;
+  margin: auto;
 }
 
 .s1 th,
@@ -45,6 +46,36 @@ section {
   background-color: rgba(150, 212, 212, 0.4);
 }
 
-.s2 td, .s3 td {
-    height: 30px;
+.s2 td,
+.s3 td {
+  height: 30px;
+}
+
+.s4 table {
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.s4 tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.s5 table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+.s5 th,
+.s5 td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.s5 tr:hover {
+  background-color: brown;
+  color: white;
 }
