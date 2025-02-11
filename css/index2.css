@@ -1,0 +1,42 @@
+section {
+  margin: 10px;
+}
+
+.s1 a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.s1 a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.s1 a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.s1 a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.s2 a:link,
+a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.s2 a:hover,
+a:active {
+  background-color: red;
+}
