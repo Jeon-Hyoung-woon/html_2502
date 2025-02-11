@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iframe</title>
+    <link rel="stylesheet" href="../css/index5.css" />
+  </head>
+  <body>
+    <section class="s1">
+      <h1>iframe in HTML</h1>
+      <iframe
+        src="./index4_tablestyle.html"
+        height="500"
+        width="800"
+        title="Iframe Example"
+      ></iframe>
+    </section>
+
+    <hr />
+    <br />
+
+    <section class="s2">
+      <h2>HTML Iframes</h2>
+      <p>
+        You can also use the CSS height and width properties to specify the size
+        of the iframe:
+      </p>
+
+      <iframe src="./index3_width.html" title="Iframe Example"></iframe>
+    </section>
+
+    <hr />
+    <br />
+    <section class="s3">
+      <h2>Remove the Iframe Border</h2>
+      <p>To remove the default border of the iframe, use CSS:</p>
+
+      <iframe src="./index2.html" title="Iframe Example"></iframe>
+    </section>
+
+    <section class="s4">
+      <h2>Custom Iframe Border</h2>
+      <p>
+        With CSS, you can also change the size, style and color of the iframe's
+        border:
+      </p>
+
+      <iframe src="./index4_tablestyle.html" title="Iframe Example"></iframe>
+    </section>
+
+    <section class="s5">
+      <h2>Iframe - Targer for a Link</h2>
+
+      <iframe
+        src="../ex_p228.html"
+        name="iframe_a"
+        title="Iframe Example"
+      ></iframe>
+      <p><a href="../ex_p228.html" target="iframe_a">ex_P228</a></p>
+
+      <p>
+        When the target attribute of a link matches the name of an iframe, the
+        link will open in the iframe.
+      </p>
+      <p>하단 link onclick > iframe load</p>
+    </section>
+  </body>
+</html>
