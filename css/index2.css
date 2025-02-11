@@ -34,9 +34,13 @@ a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
 .s2 a:hover,
 a:active {
   background-color: red;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px black;
 }
