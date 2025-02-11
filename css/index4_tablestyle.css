@@ -78,6 +78,7 @@ section {
 .s5 tr:hover {
   background-color: brown;
   color: white;
+  text-shadow: 2px 2px 6px black;
 }
 
 .s5 th {
