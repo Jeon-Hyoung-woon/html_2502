@@ -1,0 +1,17 @@
+.s2 iframe {
+  height: 200px;
+  width: 300px;
+}
+
+.s3 iframe {
+  border: none;
+}
+
+.s4 iframe {
+  border: 2px solid red;
+}
+
+.s5 iframe {
+  height: 300px;
+  width: 100%;
+}
