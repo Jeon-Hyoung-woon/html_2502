@@ -46,11 +46,6 @@ section {
   background-color: rgba(150, 212, 212, 0.4);
 }
 
-.s2 td,
-.s3 td {
-  height: 30px;
-}
-
 .s4 table {
   border-collapse: collapse;
   width: 50%;
