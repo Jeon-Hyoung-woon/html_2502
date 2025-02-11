@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Picture element</title>
+  </head>
+  <body>
+    <div id="b_width">Test</div>
+    <script>
+      //초기 브라우저 width 표기
+      document.getElementById("b_width").innerHTML =
+        "Browser width : " + window.innerWidth + "px";
+      //창 크기 변경시마다 width 갱신
+      window.addEventListener("resize", function () {
+        document.getElementById("b_width").innerHTML =
+          "Browser width : " + window.innerWidth + "px";
+      });
+    </script>
+    <h2>The picture element</h2>
+    <picture>
+      <source media="(min-width: 650px)" srcset="../images/img_food.jpg" />
+      <source media="(min-width: 465px)" srcset="../images/img_car.jpg" />
+      <img src="../images/img_girl.jpg" style="width: auto" />
+    </picture>
+
+    <p>웹 브라우저 resize 시 해당 넓이에 맞춰 그림이 변경됨.</p>
+    <p>
+      Resize the brwser to see different versions of the picture loading at
+      different viewport sizes. <br />
+      The browser looks for the first source element where the media query
+      matches the user's current viewport width, and fetches the image specified
+      in the srcset attribute.
+    </p>
+    <p>
+      The img element is required as the last child tag of the picture
+      declaration block. <br />
+      The img element is used to provide backward compatibility for browsers
+      that do not support the picture element, or if none of the source tags
+      matched.
+    </p>
+  </body>
+</html>
