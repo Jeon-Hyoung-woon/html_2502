@@ -62,19 +62,3 @@ p {
   font-size: 20px;
   text-align: center;
 }
-
-.s6 > ul.sqbullet {
-  list-style-type: square;
-}
-
-.s6 > ul.nobullet {
-  list-style-type: none;
-}
-
-.s7 > ol.book1 {
-  list-style-type: lower-alpha;
-}
-
-.s7 > ol.book2 {
-  list-style-type: upper-roman;
-}
