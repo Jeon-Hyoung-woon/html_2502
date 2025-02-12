@@ -1,0 +1,23 @@
+section {
+  border: 1px solid black;
+  width: auto;
+}
+
+.s1 > div {
+  background-color: lightgray;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  /* box-sizing: border-box; */
+}
+
+.s2 > div {
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  /* box-sizing: border-box; */
+  /* overflow: hidden; */
+}
