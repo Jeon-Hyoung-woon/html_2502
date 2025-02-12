@@ -1,0 +1,23 @@
+section {
+  border: 1px solid lightslategray;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table {
+  margin: 10px 10px;
+}
+
+th {
+  width: 300px;
+}
+
+td {
+  height: 25px;
+}
