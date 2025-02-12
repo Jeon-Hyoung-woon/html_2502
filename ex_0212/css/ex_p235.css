@@ -1,0 +1,64 @@
+section {
+  border: 1px solid black;
+}
+
+p {
+  border: 1px solid black;
+  width: 50%;
+}
+
+h2,
+h3,
+p {
+  margin-left: 15px;
+}
+
+.s1 > p.align-left {
+  text-align: left;
+}
+
+.s1 > p.align-right {
+  text-align: right;
+}
+
+.s1 > p.align-center {
+  text-align: center;
+}
+
+.s1 > p.align-justify {
+  text-align: justify;
+}
+
+.s2 > p.indent1 {
+  text-indent: 15px;
+}
+
+.s2 > p.indent2 {
+  text-indent: 5%;
+}
+
+.s3 > p.small-line {
+  line-height: 0.7;
+}
+
+.s3 > p.big-line {
+  line-height: 2;
+}
+
+.s4 > p.content {
+  border: 1px solid #ccc;
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.s4 > p.content:hover {
+  overflow: visible;
+}
+
+.s5 > p.ex1 {
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+}
