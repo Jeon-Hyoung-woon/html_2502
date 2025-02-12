@@ -2,7 +2,11 @@ section {
   border: 1px solid black;
 }
 
-p {
+.s1 p,
+.s2 p,
+.s3 p,
+.s4 p,
+.s5 p {
   border: 1px solid black;
   width: 50%;
 }
@@ -93,5 +97,61 @@ p {
 }
 
 .s10 > ul.ex2 {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+.s11 > p > span.font {
+  font-weight: 700;
+  font-size: larger;
+}
+
+.s12 > ul.none {
+  list-style-type: none;
+}
+
+.s12 > ul > li > span.font {
+  font-weight: 700;
+  color: #ad3000;
+  line-height: 2;
+}
+
+.s13 > div.container {
+  width: 500px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #444;
+  text-align: center;
+}
+
+.s13 > div > h1 {
+  color: #fff;
+  text-shadow: 3px 2px 5px black;
+}
+
+.s14 {
+  font-family: "맑은 고딕", "돋움";
+}
+.s14 > h1 {
+  font-size: 17px;
+}
+.s14 p {
+  font-size: 16px;
+  line-height: 25px;
+}
+.s14 span.accent {
+  font-weight: bold;
+  color: red;
+}
+.s14 div.container1 {
+  width: 750px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.s14 > div.container1 > div.book-img {
+  float: left;
+  padding: 10px;
+  margin-right: 20px;
+}
+.s14 > div.container1 > div.book-desc {
+  padding: 10px;
 }
