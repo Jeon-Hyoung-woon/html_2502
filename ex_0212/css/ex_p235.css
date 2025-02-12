@@ -7,6 +7,7 @@ p {
   width: 50%;
 }
 
+h1,
 h2,
 h3,
 p {
@@ -61,4 +62,36 @@ p {
   line-height: 30px;
   font-size: 20px;
   text-align: center;
+}
+
+.s6 > ul.sqbullet {
+  list-style-type: square;
+}
+
+.s6 > ul.nobullet {
+  list-style-type: none;
+}
+
+.s7 > ol.book1 {
+  list-style-type: lower-alpha;
+}
+
+.s7 > ol.book2 {
+  list-style-type: upper-roman;
+}
+
+.s8 > ul.ex1 {
+  list-style-image: url(../images/dot.png);
+}
+
+.s9 > ul.inside {
+  list-style-position: inside;
+}
+
+.s9 > ul.outside {
+  list-style-position: outside;
+}
+
+.s10 > ul.ex2 {
+    list-style-type: none;
 }
