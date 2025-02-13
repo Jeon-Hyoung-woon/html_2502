@@ -174,8 +174,358 @@ section {
   width: 500px;
   height: 500px;
 }
+
 .s8 div {
   width: 80%;
   margin: auto;
   border: 1px solid blue;
+}
+
+.s9 div.grid {
+  background: blue;
+  background: -webkit-linear-gradient(left top, blue, white);
+  background: -moz-linear-gradient(right bottom, blue, white);
+  background: -o-linear-gradient(right bottom, blue, white);
+  background: linear-gradient(to right bottom, blue, white);
+  margin: auto;
+}
+
+.s10 div.grid {
+  background: #ff0000;
+  background: -webkit-linear-gradient(45deg, #ff0000, #ffffff);
+  background: -moz-linear-gradient(45deg, #ff0000, #ffffff);
+  background: -o-linear-gradient(45deg, #ff0000, #ffffff);
+  background: linear-gradient(45deg, #ff0000, #ffffff);
+  margin: auto;
+}
+
+.s11 div.grid {
+  background: #06f;
+  background-image: -webkit-linear-gradient(top, #06f, white 30%, #06f);
+  background-image: -moz-linear-gradient(bottom, #06f, white 30%, #06f);
+  background: -o-linear-gradient(bottom, #06f, white 30%, #06f);
+  background: linear-gradient(to bottom, #06f, white 30%, #06f);
+  margin: auto;
+}
+
+.s12 div.grid1 {
+  background: red;
+  background: -webkit-radial-gradient(white, yellow, red);
+  background: -moz-radial-gradient(white, yellow, red);
+  background: -o-radial-gradient(white, yellow, red);
+  background: radial-gradient(white, yellow, red);
+  margin: auto;
+}
+
+.s12 div.grid2 {
+  background: red;
+  background: -webkit-radial-gradient(circle, white, yellow, red);
+  background: -moz-radial-gradient(circle, white, yellow, red);
+  background: -o-radial-gradient(circle, white, yellow, red);
+  background: radial-gradient(circle, white, yellow, red);
+  margin: auto;
+}
+
+.s13 div.grid {
+  background: blue;
+  background: -webkit-radial-gradient(10% 10%, circle, white, blue);
+  background: -moz-radial-gradient(10% 10%, circle, white, blue);
+  background: -o-radial-gradient(10% 10%, circle, white, blue);
+  background: radial-gradient(circle at 10% 10%, circle, white, blue);
+  margin: auto;
+}
+
+.s14 li {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 5px;
+}
+
+.s14 li#div1 {
+  background: darkgreen;
+  background: -webkit-radial-gradient(
+    30% 40%,
+    circle closest-side,
+    white,
+    yellow,
+    green
+  );
+  background: -moz-radial-gradient(
+    30% 40%,
+    circle closest-side,
+    white,
+    yellow,
+    green
+  );
+  background: -o-radial-gradient(
+    30% 40%,
+    circle closest-side,
+    white,
+    yellow,
+    green
+  );
+  background: radial-gradient(
+    circle closest-side at 30% 40%,
+    white,
+    yellow,
+    green
+  );
+}
+
+.s14 li#div2 {
+  background: darkgreen;
+  background: -webkit-radial-gradient(
+    30% 40%,
+    circle closest-corner,
+    white,
+    yellow,
+    green
+  );
+  background: -moz-radial-gradient(
+    30% 40%,
+    circle closest-corner,
+    white,
+    yellow,
+    green
+  );
+  background: -o-radial-gradient(
+    30% 40%,
+    circle closest-corner,
+    white,
+    yellow,
+    green
+  );
+  background: radial-gradient(
+    circle closest-corner at 30% 40%,
+    white,
+    yellow,
+    green
+  );
+}
+
+.s14 li#div3 {
+  background: darkgreen;
+  background: -webkit-radial-gradient(
+    30% 40%,
+    circle farthest-side,
+    white,
+    yellow,
+    green
+  );
+  background: -moz-radial-gradient(
+    30% 40%,
+    circle farthest-side,
+    white,
+    yellow,
+    green
+  );
+  background: -o-radial-gradient(
+    30% 40%,
+    circle farthest-side,
+    white,
+    yellow,
+    green
+  );
+  background: radial-gradient(
+    circle farthest-side at 30% 40%,
+    white,
+    yellow,
+    green
+  );
+}
+
+.s14 li#div4 {
+  background: darkgreen;
+  background: -webkit-radial-gradient(
+    30% 40%,
+    circle farthest-corner,
+    white,
+    yellow,
+    green
+  );
+  background: -moz-radial-gradient(
+    30% 40%,
+    circle farthest-corner,
+    white,
+    yellow,
+    green
+  );
+  background: -o-radial-gradient(
+    30% 40%,
+    circle farthest-corner,
+    white,
+    yellow,
+    green
+  );
+  background: radial-gradient(
+    circle farthest-corner at 30% 40%,
+    white,
+    yellow,
+    green
+  );
+}
+
+.s15 li {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 5px;
+}
+
+.s15 li#div1 {
+  background: skyblue;
+  background: -webkit-radial-gradient(red, yellow, skyblue);
+  background: -moz-radial-gradient(red, yellow, skyblue);
+  background: -o-radial-gradient(red, yellow, skyblue);
+  background: radial-gradient(red, yellow, skyblue);
+}
+
+.s15 li#div2 {
+  background: skyblue;
+  background: -webkit-radial-gradient(red, yellow 20%, skyblue);
+  background: -moz-radial-gradient(red, yellow 20%, skyblue);
+  background: -o-radial-gradient(red, yellow 20%, skyblue);
+  background: radial-gradient(red, yellow 20%, skyblue);
+}
+
+.s16 div.div1 {
+  background: red;
+  background: -webkit-repeating-linear-gradient(yellow, red 20px);
+  background: -moz-repeating-linear-gradient(yellow, red 20px);
+  background: -o-repeating-linear-gradient(yellow, red 20px);
+  background: repeating-linear-gradient(yellow, red 20px);
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+.s17 li {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 5px;
+}
+
+.s17 li#div1 {
+  background: red;
+  background: -webkit-repeating-linear-gradient(
+    yellow,
+    yellow 20px,
+    red 20px,
+    red 40px
+  );
+  background: -moz-repeating-linear-gradient(
+    yellow,
+    yellow 20px,
+    red 20px,
+    red 40px
+  );
+  background: -o-repeating-linear-gradient(
+    yellow,
+    yellow 20px,
+    red 20px,
+    red 40px
+  );
+  background: repeating-linear-gradient(
+    yellow,
+    yellow 20px,
+    red 20px,
+    red 40px
+  );
+}
+
+.s17 li#div2 {
+  background: red;
+  background: -webkit-repeating-radial-gradient(circle, white, #ccc 10%);
+  background: -moz-repeating-radial-gradient(circle, white, #ccc 10%);
+  background: -o-repeating-linear-gradient(circle, white, #ccc 10%);
+  background: repeating-radial-gradient(circle, white, #ccc 10%);
+}
+
+.s17 li#div3 {
+  background: red;
+  background: -webkit-repeating-radial-gradient(
+    circle,
+    white,
+    white 10%,
+    #ccc 10%,
+    #ccc 20%
+  );
+  background: -moz-repeating-radial-gradient(
+    circle,
+    white,
+    white 10%,
+    #ccc 10%,
+    #ccc 20%
+  );
+  background: -o-repeating-linear-gradient(
+    circle,
+    white,
+    white 10%,
+    #ccc 10%,
+    #ccc 20%
+  );
+  background: repeating-radial-gradient(
+    circle,
+    white,
+    white 10%,
+    #ccc 10%,
+    #ccc 20%
+  );
+}
+
+.s18 div {
+  width: 500px;
+  height: 500px;
+  margin: 5px auto 5px auto;
+  border: 1px solid blue;
+}
+
+.s18 div.div1 {
+  background: linear-gradient(to bottom, green, white);
+}
+
+.s19 div.container {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid blue;
+  margin: auto auto 15px auto;
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+.s20 div.container {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid blue;
+  margin: auto auto 15px auto;
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+.s20 div.container:hover {
+  background-color: blue;
+  color: white;
+}
+
+.s21 div.container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: auto auto 15px auto;
+  background: url(../images/apple-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.s21 div.content {
+  position: absolute;
+  top: 300px;
+  width: 90%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
 }
