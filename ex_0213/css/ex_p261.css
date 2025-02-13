@@ -1,0 +1,181 @@
+section {
+  border: 1px solid black;
+  width: 90%;
+  margin: auto;
+}
+
+.s1 {
+  background-color: #0094ff;
+}
+
+.s1 div {
+  background-color: white;
+  width: 80%;
+  padding: 15px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.s1 p {
+  line-height: 30px;
+}
+
+.s2 div {
+  width: 400px;
+  border: 5px dashed black;
+  margin: 10px;
+  padding: 35px;
+}
+.s2 .bg1 {
+  background-clip: border-box;
+  background-color: lightskyblue;
+}
+
+.s2 .bg2 {
+  background-clip: padding-box;
+  background-color: lightskyblue;
+}
+
+.s2 .bg3 {
+  background-clip: content-box;
+  background-color: lightskyblue;
+}
+
+.s3 div {
+  margin: auto;
+  border: 1px solid black;
+}
+
+.s3 div.div1 {
+  background-image: url(../images/bg1.png);
+}
+
+.s3 div.div2 {
+  background-image: url(../images/bg1.png);
+  background-repeat: repeat-x;
+}
+
+.s3 div.div3 {
+  background-image: url(../images/bg1.png);
+  background-repeat: repeat-y;
+}
+
+.s3 div.div4 {
+  background-image: url(../images/bg1.png);
+  background-repeat: no-repeat;
+}
+
+.s4 div {
+  width: 500px;
+  height: 500px;
+  border: 3px solid black;
+  margin-left: 10px;
+}
+
+.s4 > div.bg1 {
+  background: url(../images/bg4.jpg) no-repeat left top;
+  background-size: auto;
+}
+
+.s4 > div.bg2 {
+  background: url(../images/bg4.jpg) no-repeat left top;
+  background-size: 200px 150px;
+}
+
+.s4 > div.bg3 {
+  background: url(../images/bg4.jpg) no-repeat left top;
+  background-size: 60% 40%;
+}
+
+.s4 > div.bg4 {
+  background: url(../images/bg4.jpg) no-repeat left top;
+  background-size: contain;
+}
+
+.s4 > div.bg5 {
+  background: url(../images/bg4.jpg) no-repeat left top;
+  background-size: cover;
+}
+
+.s4 > div.bg6 {
+  background: url(../images/bg4.jpg) no-repeat left top;
+  background-size: 100% 100%;
+}
+
+.s5 button {
+  background-color: #0094ff;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-weight: 800;
+  margin: 5px;
+}
+.s5 > div > #bg1 {
+  background-image: url(../images/light.png);
+  background-repeat: no-repeat;
+  background-position: 5px 7px;
+}
+
+.s5 > div > #bg2 {
+  background-image: url(../images/light.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.s6 div {
+  width: 400px;
+  padding: 35px;
+  border: 10px gray solid;
+  margin: 10px;
+  height: 300px;
+}
+
+.s6 div.bg1 {
+  background: url(../images/bg3.jpg) no-repeat;
+  background-origin: padding-box;
+}
+
+.s6 div.bg2 {
+  background: url(../images/bg3.jpg) no-repeat;
+  background-origin: border-box;
+  background-clip: border-box;
+  background-color: lightskyblue;
+}
+
+.s6 div.bg3 {
+  background: url(../images/bg3.jpg) no-repeat;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-color: lightskyblue;
+}
+
+.s7 {
+  background-image: url(../images/bottom-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  width: 70%;
+}
+
+.s7 h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+.s7 div {
+  width: 40%;
+  margin: auto;
+}
+
+.s8 div.ex1 {
+  background: url(../images/apple-bg.jpg) no-repeat right bottom;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+}
+.s8 div {
+  width: 80%;
+  margin: auto;
+  border: 1px solid blue;
+}
