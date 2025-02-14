@@ -304,3 +304,9 @@ p {
   padding: 10px 20px;
   margin: 10px;
 }
+
+.s20 a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
