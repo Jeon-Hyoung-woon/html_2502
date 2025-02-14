@@ -1,0 +1,306 @@
+section {
+  border: 1px solid black;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-left: 15px;
+}
+
+.s2 .box1 {
+  width: 400px;
+  height: 100px;
+  background: #ff6a00;
+}
+
+.s2 .box2 {
+  width: 50%;
+  height: 100px;
+  background: #0094ff;
+}
+
+.s2 div {
+  margin: 10px;
+}
+
+.s3 #block img {
+  display: block;
+  margin: 10px;
+}
+
+.s4 ul {
+  list-style-type: none;
+}
+
+.s4 nav ul li {
+  display: inline;
+  border-top: 3px solid black;
+  margin: 10px;
+}
+
+.s4 li:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+.s4 a {
+  text-decoration: none;
+  color: black;
+}
+
+.s5 ul {
+  list-style-type: none;
+}
+
+.s5 nav {
+  background-color: #069;
+  height: 60px;
+}
+
+.s5 li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.s5 a {
+  text-decoration: none;
+  color: white;
+}
+
+.s6 div {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  display: inline-block;
+}
+
+.s7 div {
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  margin: 15px;
+  border-width: 5px;
+}
+
+.s7 div.box1 {
+  border-style: solid;
+}
+
+.s7 div.box2 {
+  border-style: dotted;
+}
+
+.s7 div.box3 {
+  border-style: dashed;
+}
+
+.s8 div {
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  margin: 15px;
+  border-style: dashed;
+  border-width: 2px;
+}
+
+.s8 div.box1 {
+  border-color: red;
+}
+
+.s8 div.box2 {
+  border-color: blue;
+}
+
+.s9 h1 {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #ccc;
+}
+
+.s9 p {
+  padding: 10px;
+  border: 3px dotted black;
+  margin: 5px;
+}
+
+.s10 div {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  margin: 15px;
+}
+
+.s10 div.round {
+  border: 2px solid red;
+  border-radius: 20px;
+}
+
+.s10 div#bg {
+  background: url(../images/pic1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.s10 div.round2 {
+  border: 2px solid blue;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.s10 div.round3 {
+  background: #0c78c8;
+  border-radius: 20px 70px;
+}
+
+.s11 div {
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  margin: 15px;
+  background: #ffd800;
+  border: 2px solid;
+}
+
+.s11 div.round1 {
+  border-top-left-radius: 100px 50px;
+}
+
+.s11 div.round2 {
+  border-top-right-radius: 50% 30%;
+}
+
+.s11 div.round3 {
+  border-top-right-radius: 50px;
+}
+
+.s12 div {
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  margin: 15px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+
+.s12 div.box1 {
+  box-shadow: 2px -2px 5px 0px black;
+}
+
+.s12 div.box2 {
+  box-shadow: 5px 5px 15px 5px gray;
+}
+
+.s13 div {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  border: 3px solid red;
+  border-radius: 50%;
+}
+
+.s14 div {
+  width: 200px;
+  height: 100px;
+  background: #0094ff;
+}
+
+.s14 div.box1 {
+  margin: 30px 50px 30px 50px;
+}
+
+.s14 div.box2 {
+  margin: 30px 50px;
+}
+
+.s14 div.box3 {
+  margin: 50px;
+}
+
+.s14 div.box4 {
+  margin: 30px 5px 10px;
+}
+
+/* margin 0 auto에서 숫자기입 auto가 되면 가운데 정렬이 안됨 */
+.s15 div.box {
+  width: 200px;
+  height: 100px;
+  background: lightskyblue;
+  margin: 0 auto;
+}
+
+.s16 div {
+  width: 200px;
+  height: 100px;
+  margin: 30px;
+}
+
+.s16 div#box1 {
+  background: rgb(0, 77, 243);
+}
+
+.s16 div#box2 {
+  background: rgb(255, 72, 0);
+}
+
+.s16 div#box3 {
+  background: rgb(18, 219, 0);
+}
+
+.s17 div {
+  width: 200px;
+  height: 100px;
+  margin: 30px;
+  display: inline-block;
+}
+
+.s17 div#box1 {
+  background: rgb(0, 77, 243);
+}
+
+.s17 div#box2 {
+  background: rgb(255, 72, 0);
+}
+
+.s17 div#box3 {
+  background: rgb(18, 219, 0);
+}
+
+.s18 div {
+  width: 200px;
+  height: auto;
+  background: #0094ff;
+  display: inline-block;
+  margin: 15px;
+  color: white;
+}
+
+.s18 div.box1 {
+  padding: 10px 30px 10px 30px;
+}
+
+.s18 div.box2 {
+  padding: 10px 30px;
+}
+
+.s18 div.box3 {
+  padding: 10px;
+  /* outline: 1px solid black;
+  outline-offset: -10px; */
+}
+
+.s19 div {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  border-width: 5px 20px 10px 15px;
+}
+
+.s20 ul {
+  list-style-type: none;
+}
+
+.s20 li {
+  border: 1px solid black;
+  display: inline;
+  padding: 10px 20px;
+  margin: 10px;
+}
