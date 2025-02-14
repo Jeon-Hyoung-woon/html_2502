@@ -1,0 +1,318 @@
+/* @import url(https://fonts.googleapis.com/css?family=Sofia);
+@import url(https://fonts.googleapis.com/css?family=Trirong);
+@import url(https://fonts.googleapis.com/css?family=Audiowide); */
+@import url(https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong);
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu|Lora);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Space+Mono|Muli);
+@import url(https://fonts.googleapis.com/css?family=Spectral|Rubik);
+@import url(https://fonts.googleapis.com/css?family=Oswald|Noto+Sans);
+
+section {
+  border: 1px solid black;
+  width: 80%;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 15px;
+}
+
+.s1 p.p1 {
+  font-family: "Amatic SC", "Times New Roman", Times, serif;
+}
+
+.s1 p.p2 {
+  font-family: "Rosewood std regular", Arial, Helvetica, sans-serif;
+}
+
+.s1 p.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.s2 p {
+  font-family: tahoma, verdana, sans-serif;
+}
+
+.s3 {
+  font-family: Arial, sans-serif;
+}
+
+.s4 {
+  font-family: verdana, sans-serif;
+}
+
+.s5 {
+  font-family: tahoma, sans-serif;
+}
+
+.s6 {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.s7 {
+  font-family: "times new roman", serif;
+}
+
+.s8 {
+  font-family: georgia, serif;
+}
+
+.s9 {
+  font-family: garamond, serif;
+}
+
+.s10 {
+  font-family: "courier new", monospace;
+}
+
+.s11 {
+  font-family: "Brush Script MT", cursive;
+  letter-spacing: 3px;
+}
+
+.s12 p.normal {
+  font-style: normal;
+}
+
+.s12 p.italic {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.s12 p.oblique {
+  font-family: Helvetica, arial, sans-serif;
+  font-style: oblique;
+}
+
+.s13 p.normal {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.s13 p.light {
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.s13 p.thick {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.s13 p.thicker {
+  font-weight: 550;
+  font-size: 30px;
+}
+
+.s14 p.normal {
+  font-variant: normal;
+}
+
+.s14 p.small {
+  font-variant: small-caps;
+}
+
+.s15 h1 {
+  font-size: 40px;
+}
+
+.s15 h2 {
+  font-size: 30px;
+}
+
+.s15 p {
+  font-size: 14px;
+}
+
+/*1em=16px 
+2.5em*16px = 40px */
+.s16 h1 {
+  font-size: 2.5em;
+}
+
+/* 1.875em*16px = 30px */
+.s16 h2 {
+  font-size: 1.875em;
+}
+
+/* 0.875em*16px = 14px */
+.s16 p {
+  font-size: 0.875em;
+}
+
+.s17 {
+  font-size: 100%;
+}
+
+.s17 h1 {
+  font-size: 2.5em;
+}
+
+.s17 h2 {
+  font-size: 1.875em;
+}
+
+.s17 p {
+  font-size: 0.875em;
+}
+
+/* vw 단위는 화면 전체 width 대비 %지정으로 화면 resizing시 크기가 같이 변경됨.
+1vw = width의 1% ex) width 850의 1vw는 85 */
+.s18 h1 {
+  font-size: 10vw;
+}
+
+.s18 p.vw {
+  font-size: 5vw;
+}
+
+.s19 {
+  font-family: "sofia", sans-serif;
+}
+
+.s20 {
+  font-family: "Trirong", serif;
+}
+
+.s21 {
+  font-family: "audiowide", sans-serif;
+}
+
+.s22 h1.a {
+  font-family: "Audiowide", sans-serif;
+}
+
+.s22 h1.b {
+  font-family: "Sofia", sans-serif;
+}
+
+.s22 h1.c {
+  font-family: "Triring", serif;
+}
+
+.s23 {
+  background-color: black;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  color: gray;
+}
+
+.s23 h1 {
+  font-family: Georgia, serif;
+  font-size: 60px;
+  color: white;
+}
+
+.s24 {
+  font-family: verdana, sans-serif;
+  font-size: 16px;
+}
+
+.s24 h1 {
+  font-family: georgia, serif;
+  font-size: 46px;
+}
+
+.s25 {
+  font-family: garamond, serif;
+  font-size: 16px;
+}
+
+.s25 h1 {
+  font-family: helvetica, sans-serif;
+  font-size: 46px;
+}
+
+.s26 {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+}
+
+.s26 h1 {
+  font-family: merriweather, serif;
+  font-size: 46px;
+}
+
+.s27 {
+  font-family: lora, serif;
+  font-size: 16px;
+}
+
+.s27 h1 {
+  font-family: ubuntu, sans-serif;
+  font-size: 46px;
+}
+
+.s28 {
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+}
+
+.s28 h1 {
+  font-family: "abril fatface", serif;
+  font-size: 46px;
+}
+
+.s29 {
+  font-family: "fauna one", serif;
+  font-size: 16px;
+}
+
+.s29 h1 {
+  font-family: cinzel, serif;
+  font-size: 46px;
+}
+
+.s30 {
+  font-family: "libre baskerville", serif;
+  font-size: 16px;
+}
+
+.s30 h1 {
+  font-family: "fjalla one", sans-serif;
+  font-size: 46px;
+}
+
+.s31 {
+  font-family: muli, sans-serif;
+  font-size: 16px;
+}
+
+.s31 h1 {
+  font-family: "space mono", monospace;
+  font-size: 46px;
+}
+
+.s32 {
+  font-family: rubik, sans-serif;
+  font-size: 16px;
+}
+
+.s32 h1 {
+  font-family: spectral, serif;
+  font-size: 46px;
+}
+
+.s33 {
+  font-family: "noto sans", sans-serif;
+  font-size: 16px;
+}
+
+.s33 h1 {
+  font-family: oswald, serif;
+  font-size: 46px;
+}
+
+.s34 p.a {
+  font: 20px Arial, sans-serif;
+}
+
+.s34 p.b {
+  font: italic small-caps bold 12px/30px Georgia, serif;
+}
