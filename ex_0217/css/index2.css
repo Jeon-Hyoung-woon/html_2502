@@ -29,3 +29,7 @@ section {
   background-color: lightskyblue;
   cursor: pointer;
 }
+
+.s8 span {
+  display: block;
+}
