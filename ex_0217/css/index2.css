@@ -1,0 +1,23 @@
+section {
+  border: 1px solid black;
+}
+
+.s1 li {
+  display: inline;
+}
+
+.s2 span {
+  display: block;
+}
+
+.s3 a {
+  display: block;
+}
+
+.s4 h1.none {
+  display: none;
+}
+
+.s5 h1.hidden {
+  visibility: hidden;
+}
