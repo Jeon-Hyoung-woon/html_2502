@@ -1,4 +1,4 @@
 var d = document;
-function funHidden() {
+function funShow() {
   d.getElementById("pane1").style.display = "block";
 }
