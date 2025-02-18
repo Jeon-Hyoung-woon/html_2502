@@ -79,10 +79,12 @@ num5++;
 d.write(num5, "<br>");
 
 result3 = num6++;
-d.write(result3, "<br>");
+d.write(result3, "&nbsp;");
+d.write(num6, "<br>");
 
 result3 = ++num6;
-d.write(result3, "<br><hr>");
+d.write(result3, "&nbsp;");
+d.write(num6, "<br><hr>");
 
 var a = 10;
 var b = 20;
@@ -99,12 +101,14 @@ d.write("<h3>10 < 20 비교</h3>", result4, "<br>");
 result4 = a <= b;
 d.write("<h3>10 <= 20 비교</h3>", result4, "<br>");
 
+//값만 동일하면 타입 무관하게 true 출력
 result4 = b == f;
 d.write('<h3>20 == "20" 비교</h3>', result4, "<br>");
 
 result4 = a != b;
 d.write("<h3>10 != 20 비교</h3>", result4, "<br>");
 
+//타입과 값 모두 동일해야 ture 출력
 result4 = b === f;
 d.write('<h3>20 === "20" 비교</h3>', result4, "<br><hr>");
 
@@ -132,3 +136,41 @@ d.write("<h3>10 <= 20 and 20 <= 30 and 30 <= 40</h3>", result5, "<br>");
 //결과값이 !false로 최종 true 출력
 result5 = !(a1 > b1);
 d.write("<h3>!(10 > 20) 결과값의 반대값 출력</h3>", result5, "<br><hr>");
+
+var a2 = 10;
+var b2 = 3;
+
+//결과값이 true 일때 java, false 일때 hello
+var result6 = a2 > b2 ? "javascript" : "hello";
+d.write(result6, "<hr>");
+
+var userHeight = 180;
+var userWeight = 74;
+
+var normal_w = (userHeight - 100) * 0.9;
+d.write("<h3>(신장 - 100) * 0.9</h3>", normal_w, "<hr>");
+
+var name = prompt("당신의 이름은?", "");
+var height = prompt("당신의 키는?", "0");
+var weight = prompt("당신의 체중은?", "0");
+
+var normal_w1 = (height - 100) * 0.9;
+var result7 = weight >= normal_w1 - 5 && weight <= normal_w1 + 5;
+result7 = result7 ? "적정 체중입니다." : "적정 체중이 아닙니다.";
+d.write("적정 체중: " + normal_w1, "<br>");
+d.write(name + "님은 " + result7, "<br><hr>");
+
+var price1 = 3000;
+var price2 = 6000;
+var price3 = 3000;
+
+var total = price1 + price2 + price3;
+result8 = total > 10000 ? (total - 10000) + "원 초과" : "돈 관리 잘 했어요!";
+d.write("<h3>66 Page Q1</h3>", result8, "<hr>");
+
+var aver = (1200 + 1300 + 1000) / 3;
+var four = prompt("4분기 판매량 입력", "");
+var mas1 = "판매량이 평균 이상입니다.", mas2 = "판매량이 평균 미달입니다.";
+
+var result9 = four >= aver ? mas1 : mas2;
+d.write("<h3>66 Page Q2</h3>", result9, "<br><hr>")
