@@ -173,4 +173,9 @@ var four = prompt("4분기 판매량 입력", "");
 var mas1 = "판매량이 평균 이상입니다.", mas2 = "판매량이 평균 미달입니다.";
 
 var result9 = four >= aver ? mas1 : mas2;
-d.write("<h3>66 Page Q2</h3>", result9, "<br><hr>")
+//document는 화면에 직접 결과값 표시
+d.write("<h3>66 Page Q2</h3>", "평균 판매량: ", aver, "<br>")
+d.write(result9, "<br><hr>")
+
+//디버깅모드의 console창에 결과값 표시
+console.log(aver);
