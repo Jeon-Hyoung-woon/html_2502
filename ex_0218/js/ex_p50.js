@@ -157,7 +157,7 @@ var weight = prompt("당신의 체중은?", "0");
 var normal_w1 = (height - 100) * 0.9;
 var result7 = weight >= normal_w1 - 5 && weight <= normal_w1 + 5;
 result7 = result7 ? "적정 체중입니다." : "적정 체중이 아닙니다.";
-d.write("적정 체중: " + normal_w1, "kg", "<br>");
+d.write("적정 체중: " + (normal_w1-5), "~", (normal_w1+5), "kg", "<br>");
 d.write(name + "님은 " + result7, "<br><hr>");
 
 var price1 = 3000;
