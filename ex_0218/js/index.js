@@ -26,6 +26,7 @@ const x1 = d.querySelectorAll("p.intro3");
 d.getElementById("demo5").innerHTML =
   "셀렉터를 사용한 클래스 intro3 중 두번째 문단 : " + x1[1].innerHTML;
 
+  //for문 중 text += ~ element"s"로 작성하지 않으면 출력되지 않음.
 const x2 = d.forms["frm1"];
 let text = "";
 for (let i = 0; i < x2.length; i++) {
