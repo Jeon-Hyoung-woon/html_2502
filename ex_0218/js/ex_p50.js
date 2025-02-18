@@ -157,7 +157,7 @@ var weight = prompt("당신의 체중은?", "0");
 var normal_w1 = (height - 100) * 0.9;
 var result7 = weight >= normal_w1 - 5 && weight <= normal_w1 + 5;
 result7 = result7 ? "적정 체중입니다." : "적정 체중이 아닙니다.";
-d.write("적정 체중: " + normal_w1, "<br>");
+d.write("적정 체중: " + normal_w1, "kg", "<br>");
 d.write(name + "님은 " + result7, "<br><hr>");
 
 var price1 = 3000;
@@ -174,7 +174,7 @@ var mas1 = "판매량이 평균 이상입니다.", mas2 = "판매량이 평균 �
 
 var result9 = four >= aver ? mas1 : mas2;
 //document는 화면에 직접 결과값 표시
-d.write("<h3>66 Page Q2</h3>", "평균 판매량: ", aver, "<br>")
+d.write("<h3>66 Page Q2</h3>", "평균 판매량: ", aver.toFixed(2), "<br>")
 d.write(result9, "<br><hr>")
 
 //디버깅모드의 console창에 결과값 표시
