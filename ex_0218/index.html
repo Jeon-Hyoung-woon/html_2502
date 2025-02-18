@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3 Practice</title>
+    <style>
+      section {
+        border: 1px solid black;
+        margin-left: 10px;
+      }
+      p {
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="s1">
+      <p id="intro">HTML 요소 찾기</p>
+      <p><b>getElementById</b>를 사용하여 요소 확인</p>
+
+      <p id="demo1"></p>
+    </section>
+
+    <section class="s2">
+      <p>HTML요소를 태그로 찾기</p>
+      <p><b>getElementsByTagName</b>을 사용하여 요소 확인</p>
+
+      <p id="demo2"></p>
+    </section>
+
+    <section class="s3">
+      <div id="main">
+        <p>HTML 요소를 태그로 찾기: div id > 태그</p>
+        <p><b>getElementsByTagName</b>을 사용하여 요소 확인</p>
+      </div>
+
+      <p id="demo3"></p>
+    </section>
+
+    <section class="s4">
+      <p>HTML 요소를 클래스로 찾기</p>
+      <p class="intro2">Hello World!</p>
+      <p class="intro2"><b>getElementsByClassName</b>을 사용하여 요소 확인</p>
+
+      <p id="demo4"></p>
+    </section>
+
+    <section class="s5">
+      <p>HTML요소를 Query 셀렉터로 찾기</p>
+      <p class="intro3">Hello World!</p>
+      <p class="intro3"><b>querySelectorAll</b>을 사용하여 요소 확인</p>
+
+      <p id="demo5"></p>
+    </section>
+
+    <section class="s6">
+      <p>HTML요소를 <b>document.forms</b>으로 찾기</p>
+
+      <form action="#" id="frm1">
+        First name: <input type="text" name="fname" value="Donald" /><br />
+        Last name: <input type="text" name="lname" value="Duck" /><br /><br />
+        <input type="submit" value="submit" />
+      </form>
+      <p>각 요소의 값</p>
+      <p id="demo6"></p>
+    </section>
+
+    <section class="s7">
+      <h3>자바스크립트가 HTML 텍스트보다 우선순위</h3>
+      <p id="p1">Hello World!</p>
+    </section>
+
+    <section class="s8">
+      <h1 id="id01">여기에 헤딩을 작성해도</h1>
+      <p>HTML에 작성된 텍스트 대신 스크립트에 작성된 텍스트가 표시됨.</p>
+    </section>
+
+    <section class="s9">
+      <h2>자바스크립트 HTML DOM</h2>
+      <h3>
+        텍스트와 마찬가지로 자바스크립트의 이미지가 HTML 이미지보다 우선순위
+        (대체)
+      </h3>
+      <img src="./images/pic1.jpg" width="160" height="120" id="image1" />
+    </section>
+
+    <section class="s10">
+      <h3>표준시 현재 시간 표기</h3>
+      <p id="demo7"></p>
+    </section>
+
+    <section class="s11">
+      <p>어쩌고 저쩌고</p>
+      <script>
+        document.write(Date());
+      </script>
+      <p>어쩌고 저쩌고</p>
+    </section>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
