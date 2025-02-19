@@ -37,9 +37,9 @@ function displayDate() {
 }
 
 //section9, 8과 동일한 기능으로 어떤 버튼을 눌러도 갱신은 표시된곳.
-d.getElementById("myBtn").onclick = displayDate;
+d.getElementById("myBtn").onclick = displayDate2;
 
-function displayDate() {
+function displayDate2() {
   d.getElementById("demo3").innerHTML = Date();
 }
 
@@ -54,6 +54,7 @@ function checkCookies() {
   } else {
     text2 = "Cookies are not enabled.";
   }
+
   d.getElementById("demo4").innerHTML = text2;
 }
 
