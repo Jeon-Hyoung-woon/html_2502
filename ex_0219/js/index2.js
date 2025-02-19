@@ -79,10 +79,11 @@ function mOut(obj) {
   obj.innerHTML = "마우스 아웃시 효과";
 }
 
-//
+//최초 설정 값 선언
 const initialColor2 = "brown";
 const initialText2 = "여기에 마우스를 올려보세요.";
 
+//timeOut에 2초 뒤 최초 설정 값으로 돌아가라는 코드
 function timeOut(obj) {
   setTimeout(() => {
     obj.style.backgroundColor = initialColor2;
