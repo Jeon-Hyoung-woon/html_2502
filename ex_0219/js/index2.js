@@ -65,7 +65,7 @@ function upperCase() {
 }
 
 //section12
-function upperCase() {
+function upperCase2() {
   const y = d.getElementById("fname3");
   y.value = y.value.toUpperCase();
 }
