@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3 Pracktice</title>
+    <link rel="stylesheet" href="./css/index2.css" />
+  </head>
+  <body onload="checkCookies()">
+    <section class="s1">
+      <h2>JavaScript Validation</h2>
+      <form
+        action="#"
+        name="myForm"
+        onsubmit="return validateForm()"
+        method="post"
+      >
+        Name: <input type="text" name="fname" />
+        <input type="submit" value="submit" />
+      </form>
+    </section>
+
+    <section class="s2">
+      <h2>JavaScript Validation</h2>
+
+      <p>Please input a number between 1 and 10:</p>
+
+      <input id="numb" />
+      <button type="button" onclick="myFunction()">Submit</button>
+      <p id="demo1"></p>
+    </section>
+
+    <section class="s3">
+      <h2>JavaScript Validation</h2>
+
+      <form action="#" method="post">
+        <input type="text" name="fname" required />
+        <input type="submit" value="Submit" />
+      </form>
+
+      <p>입력창에 값이 없는 상태로 클릭하면 에러메세지가 뜸.</p>
+    </section>
+
+    <section class="s4">
+      <h2>JavaScript HTML DOM</h2>
+      <p>HTML 스타일 변경</p>
+
+      <p id="p1">Hello World!</p>
+      <p id="p2">Hello World!</p>
+    </section>
+
+    <section class="s5">
+      <h1 id="id1">My Heading 1</h1>
+
+      <button
+        type="button"
+        onclick="document.getElementById('id1').style.color = 'red'"
+      >
+        Click
+      </button>
+    </section>
+
+    <section class="s6">
+      <h1>JavaScript HTML Events</h1>
+      <h2>The onclick Attribute</h2>
+
+      <h2 onclick="this.innerHTML='Ooops!'">Click on this text!</h2>
+    </section>
+
+    <section class="s7">
+      <h1>HTML 이벤트</h1>
+      <h2>클릭 시 발생하는 이벤트</h2>
+
+      <h2 onclick="changeText(this)">클릭</h2>
+    </section>
+
+    <section class="s8">
+      <h1>HTML 이벤트</h1>
+
+      <p>클릭 시 날짜와 시간을 알려줌.</p>
+      <button onclick="displayDate()">현재 날짜와 시간</button>
+      <p id="demo2"></p>
+    </section>
+
+    <section class="s9">
+      <h1>HTML 이벤트</h1>
+
+      <p>
+        클릭 시 날짜와 시간은 동일하게 표시되지만, 기능을 자바스크립트로 이관함.
+      </p>
+      <button id="myBtn">여기</button>
+      <p id="demo3"></p>
+    </section>
+
+    <section class="s10">
+      <h1>HTML 이벤트</h1>
+      <h2>The onload Attribute</h2>
+
+      <p id="demo4"></p>
+    </section>
+
+    <section class="s11">
+      <h1>HTML 이벤트</h1>
+      <h2>oninput 이벤트_작성시 바로 적용</h2>
+
+      Enter your name: <input type="text" id="fname2" oninput="upperCase()" />
+      <p>해당 영역에 글자를 작성하면 바로 변경되어 적용됨.</p>
+    </section>
+
+    <section class="s12">
+      <h2>onchange_작성 후 데이터 전송이 되어야 바뀜.</h2>
+
+      Enter your name: <input type="text" id="fname3" onchange="upperCase()" />
+      <p>데이터를 영역에 작성하고 전송해야 수정됨.</p>
+    </section>
+
+    <section class="s13">
+      <h2>마우스 오버 시 효과</h2>
+
+      <div
+        onmouseover="mOver(this)"
+        onmouseout="mOut(this)"
+        style="
+          background-color: brown;
+          width: 120px;
+          height: 20px;
+          padding: 40px;
+          color: white;
+        "
+      >
+        여기에 마우스를 올려보세요.
+      </div>
+    </section>
+
+    <section class="s14">
+      <h2>onmousedown 효과</h2>
+
+      <div
+        onmousedown="mDown(this)"
+        onmouseup="mUp(this)"
+        onmouseleave="mLeave(this)"
+        style="
+          background-color: brown;
+          width: 90px;
+          height: 20px;
+          padding: 40px;
+          color: white;
+        "
+      >
+        여기를 클릭
+      </div>
+    </section>
+
+    <script src="./js/index2.js"></script>
+  </body>
+</html>
