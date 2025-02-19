@@ -79,6 +79,16 @@ function mOut(obj) {
   obj.innerHTML = "마우스 아웃시 효과";
 }
 
+const initialColor2 = "brown";
+const initialText2 = "여기에 마우스를 올려보세요.";
+
+function timeOut(obj) {
+  setTimeout(() => {
+    obj.style.backgroundColor = initialColor;
+    obj.innerHTML = initialText2;
+  }, 2000);
+}
+
 //section14
 function mDown(obj) {
   obj.style.backgroundColor = "#1ec5e5";
