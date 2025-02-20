@@ -101,7 +101,7 @@ const y5 = x5.querySelectorAll("p");
 d.getElementById("demo6").innerHTML =
   "이 문서는 총 " + y5.length + "개의 문단을 가지고 있다.";
 
-//section18,
+//section18, 문서의 특정 요소 스타일 변경
 const x6 = d.getElementById("s18");
 const y6 = x6.querySelectorAll("p");
 
@@ -110,3 +110,35 @@ function myFunction3() {
     y6[i].style.color = "white";
   }
 }
+
+//BOM
+//section19, window inner width, height 확인
+d.getElementById("demo7").innerHTML =
+  "window width : " +
+  window.innerWidth +
+  "px<br>" +
+  "wondow height : " +
+  window.innerHeight +
+  "px";
+
+//section20, Screen inner width 확인 (모니터 screen)
+d.getElementById("demo8").innerHTML = "Screen width is " + screen.width;
+
+//section21, Screen inner height 확인 (모니터 screen)
+d.getElementById("demo9").innerHTML = "Screen height is " + screen.height;
+
+//section22, 사용자가 사용 가능한 최대 넓이 (가로)
+d.getElementById("demo10").innerHTML =
+  "Available screen width is " + screen.availWidth;
+
+//section23, 사용자가 사용 가능한 최대 높이 (세로)
+d.getElementById("demo11").innerHTML =
+  "Available screen height is " + screen.availHeight;
+
+//section24, screen color depth
+d.getElementById("demo12").innerHTML =
+  "Screen color depth is " + screen.colorDepth;
+
+//section25, screen pixel depth
+d.getElementById("demo13").innerHTML =
+  "Screen puxel depth is " + screen.pixelDepth;
