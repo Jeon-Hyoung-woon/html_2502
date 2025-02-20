@@ -143,7 +143,8 @@ d.getElementById("demo12").innerHTML =
 d.getElementById("demo13").innerHTML =
   "Screen puxel depth is " + screen.pixelDepth;
 
-//section26, inner는 scroll bar 포함으로 outer width확인
+//section26, window inner, outer 비교
+//width : inner는 스크롤 포함, outer는 스크롤 제외
 d.getElementById("demo14").innerHTML +=
   "Screen inner width : " + window.innerWidth + "<br>";
 d.getElementById("demo14").innerHTML +=
