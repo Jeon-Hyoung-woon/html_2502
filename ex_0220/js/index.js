@@ -142,3 +142,14 @@ d.getElementById("demo12").innerHTML =
 //section25, screen pixel depth
 d.getElementById("demo13").innerHTML =
   "Screen puxel depth is " + screen.pixelDepth;
+
+//section26, inner는 scroll bar 포함으로 outer width확인
+d.getElementById("demo14").innerHTML +=
+  "Screen inner width : " + window.innerWidth + "<br>";
+d.getElementById("demo14").innerHTML +=
+  "Screen outer width : " + window.outerWidth + "<br>";
+
+d.getElementById("demo14").innerHTML +=
+  "Screen inner Height : " + window.innerHeight + "<br>";
+d.getElementById("demo14").innerHTML +=
+  "Screen outer Height : " + window.outerHeight;
