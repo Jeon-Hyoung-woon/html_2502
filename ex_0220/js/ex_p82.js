@@ -133,3 +133,23 @@ for (var i = 1; i <= 5; i++) {
 t += "</table>";
 console.log(t);
 d.getElementById("test11").innerHTML += t;
+
+//section13
+
+for (var l = 3; l < 6; l++) {
+  for (var m = 1; m < 10; m++) {
+    d.getElementById("Dan").innerHTML += l + " X " + m + "=" + l * m + "<br>";
+  }
+  d.getElementById("Dan").innerHTML += "<br>";
+}
+
+//section14
+
+for (var n = 3; n < 6; n++) {
+  for (var p = 1; p < 10; p++) {
+    if (n == 4 && p == 4) break;
+    if (n == 5 && p == 3) continue;
+    d.getElementById("Dan2").innerHTML += n + " X " + p + "=" + n * p + "<br>";
+  }
+  d.getElementById("Dan2").innerHTML += "<br>";
+}
