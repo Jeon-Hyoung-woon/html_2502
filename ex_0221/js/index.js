@@ -110,7 +110,7 @@ function myTimer2() {
   d.getElementById("demo17").innerHTML = f.toLocaleTimeString();
 }
 
-//Cookie
+//Cookie 1일 후 쿠키 삭제 기능
 function setCookie(cname, cvalue, exdays) {
   const g = new Date();
   g.setTime(g.getTime() + exdays * 24 * 60 * 60 * 1000);
@@ -118,6 +118,7 @@ function setCookie(cname, cvalue, exdays) {
   d.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
+//저장된 쿠키 확인
 function getCookie(cname) {
   let name = cname + "=";
   let decodedCookie = decodeURIComponent(d.cookie);
