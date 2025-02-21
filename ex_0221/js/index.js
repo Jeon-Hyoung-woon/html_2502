@@ -135,6 +135,7 @@ function getCookie(cname) {
   return "";
 }
 
+//30일 유효한 쿠키 생성
 function checkCookie() {
   let user = getCookie("username");
   if (user != "") {
