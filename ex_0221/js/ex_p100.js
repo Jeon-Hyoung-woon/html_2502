@@ -1,6 +1,6 @@
 var d = document;
 
-//100Page section1, 객체 메서드 생성 후 호출
+//100Page section1, 객체 메서드 생성 후 기능 구현
 var tv = new Object();
 tv.color = "white";
 tv.price = 300000;
@@ -9,6 +9,7 @@ tv.info = function () {
   d.getElementById("book1").innerHTML += `tv 가격 : ${this.price}<br><br>`;
 };
 
+//한번의 변수 선언 안에서 기능 구현까지 함.
 var car = {
   color: "black",
   price: 5000000,
@@ -135,7 +136,6 @@ d.getElementById(
 d.getElementById("book6").innerHTML += `0과 1사이의 난수 반환 : ${rndNum}<br>`;
 d.getElementById("book6").innerHTML += `원주율 상수 반환 : ${piNum}<br>`;
 
-
 //난수를 이용하여 가위바위보
 var game = prompt("가위, 바위, 보 중 선택하여 입력", "ex)가위");
 var gameNum;
@@ -174,19 +174,19 @@ if (gameNum == com) {
 
 var user = gameNum;
 switch (user) {
-    case 1:
-      z1 = "<img src='./images/scissors.png'><br>가위";
-      break;
-    case 2:
-      z1 = "<img src='./images/rock.png'><br>바위";
-      break;
-    case 3:
-      z1 = "<img src='./images/paper.png'><br>보";
-      break;
-    default:
-  }
-  
-  d.getElementById("user").innerHTML += `&nbsp;사용자 : <br>${z1}`;
+  case 1:
+    z1 = "<img src='./images/scissors.png'><br>가위";
+    break;
+  case 2:
+    z1 = "<img src='./images/rock.png'><br>바위";
+    break;
+  case 3:
+    z1 = "<img src='./images/paper.png'><br>보";
+    break;
+  default:
+}
+
+d.getElementById("user").innerHTML += `&nbsp;사용자 : <br>${z1}`;
 
 switch (com) {
   case 1:
