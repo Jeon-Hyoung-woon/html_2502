@@ -175,30 +175,30 @@ if (gameNum == com) {
 var user = gameNum;
 switch (user) {
   case 1:
-    z1 = "<img src='./images/scissors.png'><br>가위";
+    z1 = "가위<br><img src='./images/scissors.png'>";
     break;
   case 2:
-    z1 = "<img src='./images/rock.png'><br>바위";
+    z1 = "바위<br><img src='./images/rock.png'>";
     break;
   case 3:
-    z1 = "<img src='./images/paper.png'><br>보";
+    z1 = "보<br><img src='./images/paper.png'>";
     break;
   default:
 }
 
-d.getElementById("user").innerHTML += `&nbsp;사용자 : <br>${z1}`;
+d.getElementById("user").innerHTML += `&nbsp;사용자 : ${z1}`;
 
 switch (com) {
   case 1:
-    z2 = "<img src='./images/scissors.png'><br>가위";
+    z2 = "가위<br><img src='./images/scissors.png'>";
     break;
   case 2:
-    z2 = "<img src='./images/rock.png'><br>바위";
+    z2 = "바위<br><img src='./images/rock.png'>";
     break;
   case 3:
-    z2 = "<img src='./images/paper.png'><br>보";
+    z2 = "보<br><img src='./images/paper.png'>";
     break;
   default:
 }
 
-d.getElementById("com").innerHTML += `&nbsp;컴퓨터 : <br>${z2}`;
+d.getElementById("com").innerHTML += `&nbsp;컴퓨터 : ${z2}`;
