@@ -135,6 +135,8 @@ d.getElementById(
 d.getElementById("book6").innerHTML += `0과 1사이의 난수 반환 : ${rndNum}<br>`;
 d.getElementById("book6").innerHTML += `원주율 상수 반환 : ${piNum}<br>`;
 
+
+//난수를 이용하여 가위바위보
 var game = prompt("가위, 바위, 보 중 선택하여 입력", "ex)가위");
 var gameNum;
 switch (game) {
@@ -170,17 +172,33 @@ if (gameNum == com) {
   d.getElementById("book7").innerHTML = "이겼습니다.";
 }
 
+var user = gameNum;
+switch (user) {
+    case 1:
+      z1 = "<img src='./images/scissors.png'><br>가위";
+      break;
+    case 2:
+      z1 = "<img src='./images/rock.png'><br>바위";
+      break;
+    case 3:
+      z1 = "<img src='./images/paper.png'><br>보";
+      break;
+    default:
+  }
+  
+  d.getElementById("user").innerHTML += `&nbsp;사용자 : <br>${z1}`;
+
 switch (com) {
   case 1:
-    z = "<img src='./images/scissors.png'><br>가위";
+    z2 = "<img src='./images/scissors.png'><br>가위";
     break;
   case 2:
-    z = "<img src='./images/rock.png'><br>바위";
+    z2 = "<img src='./images/rock.png'><br>바위";
     break;
   case 3:
-    z = "<img src='./images/paper.png'><br>보";
+    z2 = "<img src='./images/paper.png'><br>보";
     break;
   default:
 }
 
-d.getElementById("book7").innerHTML += `<br><br>컴퓨터 : <br>${z}`;
+d.getElementById("com").innerHTML += `&nbsp;컴퓨터 : <br>${z2}`;
