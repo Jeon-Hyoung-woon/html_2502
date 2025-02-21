@@ -6,7 +6,7 @@
     <title>W3 Practice</title>
     <link rel="stylesheet" href="./css/index.css" />
   </head>
-  <body>
+  <body onload="checkCookie()">
     <section class="s1">
       <h2>자바스크립트</h2>
       <h3>window.location 오브젝트</h3>
@@ -55,41 +55,109 @@
       <input type="button" value="앞으로가기" onclick="forWard()" />
     </section>
 
-    <section class="s8"></section>
+    <section class="s8">
+      <h3>Navigator 오브젝트</h3>
 
-    <section class="s9"></section>
+      <p>쿠키허용 속성은 쿠키 허용 상태일 때 ture값을 반환함.</p>
 
-    <section class="s10"></section>
+      <p id="demo6"></p>
+    </section>
 
-    <section class="s11"></section>
+    <section class="s9">
+      <h3>Navigator 오브젝트2</h3>
 
-    <section class="s12"></section>
+      <p>appName 속성은 브라우저의 어플리케이션 이름을 반환함.</p>
 
-    <section class="s13"></section>
+      <p id="demo7"></p>
+      <p>
+        Strange enough, IE11, 크롬, 파이어폭스, 사파리의 어플리케이션 이름은
+        "Netscape"임.
+      </p>
+    </section>
 
-    <section class="s14"></section>
+    <section class="s10">
+      <h3>Navigator 오브젝트3</h3>
 
-    <section class="s15"></section>
+      <p>appCodeName 속성은 브라우저의 code name을 반환함.</p>
+      <p>크롬, 파이어폭스, IE, 사파리, 오페라의 code name은 "Mozilla"임.</p>
+      <p id="demo8"></p>
+    </section>
 
-    <section class="s16"></section>
+    <section class="s11">
+      <h3>Navigator 오브젝트4</h3>
 
-    <section class="s17"></section>
+      <p>product 속성은 브라우저의 product name을 반환함.</p>
+      <p>대부분의 브라우저는 "Gecko"임.</p>
+      <p id="demo9"></p>
+    </section>
 
-    <section class="s18"></section>
+    <section class="s12">
+      <h3>Navigator 오브젝트5</h3>
 
-    <section class="s19"></section>
+      <p>appVersion 속성은 브라우저의 정보 버전을 반환함.</p>
+      <p id="demo10"></p>
+    </section>
 
-    <section class="s20"></section>
+    <section class="s13">
+      <h3>Navigator 오브젝트6</h3>
 
-    <section class="s21"></section>
+      <p>userAgent 속성은 서버의 브라우저에 user-agent header를 전송</p>
+      <p id="demo11"></p>
+    </section>
 
-    <section class="s22"></section>
+    <section class="s14">
+      <h3>Navigator 오브젝트7</h3>
 
-    <section class="s23"></section>
+      <p>platform 속성은 브라우저의 플랫폼값을 반환.(operating system)</p>
+      <p id="demo12"></p>
+    </section>
 
-    <section class="s24"></section>
+    <section class="s15">
+      <h3>Navigator 오브젝트8</h3>
 
-    <section class="s25"></section>
+      <p>language 속성은 브라우저의 언어값을 반환.</p>
+      <p id="demo13"></p>
+    </section>
+
+    <section class="s16">
+      <h3>Navogator 오브젝트9</h3>
+
+      <p>onLine 속성은 브라우저가 online 상태일 때 true값을 반환</p>
+      <p id="demo14"></p>
+    </section>
+
+    <section class="s17">
+      <h3>Navigator 오브젝트10</h3>
+      <p>javaEnabled() method는 만약 자바가 enable상태면 ture값을 반환</p>
+
+      <p id="demo15"></p>
+    </section>
+
+    <section class="s18">
+      <h3>버튼 클릭 3초 후 알림창 확인</h3>
+
+      <button onclick="setTimeout(myFunction, 3000)">3초 딜레이</button>
+    </section>
+
+    <section class="s19">
+      <h3>버튼 클릭 3초 후 알림창 열기 및 해당 기능 중지</h3>
+
+      <button onclick="myVar = setTimeout(myFunction2, 3000)">
+        3초 후 알림창
+      </button>
+      <button onclick="clearTimeout(myVar)">3초 전 클릭 시 알림창 안뜸</button>
+    </section>
+
+    <section class="s20">
+      <h3>시계 띄우기 (setInterval 사용)</h3>
+      <p id="demo16"></p>
+    </section>
+
+    <section class="s21">
+      <h3>시계 띄우고 버튼으로 기능 중지</h3>
+      <p id="demo17"></p>
+      <button onclick="clearInterval(myVar2)">Stop</button>
+    </section>
 
     <script src="./js/index.js"></script>
   </body>
