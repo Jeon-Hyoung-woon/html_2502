@@ -488,10 +488,14 @@ p {
   border-collapse: collapse;
 }
 
-.s26 .head, th {
+.s26 .head {
   background-color: #eee;
 }
 
-.s26 > table > th td {
-    padding: 10px;
+.s26 th {
+  padding: 10px;
+}
+
+.s26 td {
+  padding: 10px;
 }
