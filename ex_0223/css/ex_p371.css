@@ -232,6 +232,8 @@ div {
   background-color: lightskyblue;
   padding: 10px;
   overflow: hidden;
+  /*또는
+  diplay: flow-root;*/
 }
 
 .s6 header nav {
