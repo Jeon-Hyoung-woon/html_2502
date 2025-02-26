@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3 Practice</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <section class="s1">
+      <h2>자바스크립트 EventListener</h2>
+
+      <p>버튼에 이벤트리스너 적용</p>
+
+      <button id="myBtn">클릭</button>
+      <p id="result1"></p>
+    </section>
+
+    <section class="s2">
+      <p>클릭 이벤트로 alert 띄우기</p>
+
+      <button id="myBtn2">버튼</button>
+    </section>
+
+    <section class="s3">
+      <p>function 이용하여 eventlistener</p>
+
+      <button id="myBtn3">클릭</button>
+    </section>
+
+    <section class="s4">
+      <p>한개의 버튼에 두개의 이벤트 만들기</p>
+
+      <button id="myBtn4">여기</button>
+    </section>
+
+    <section class="s5">
+      <p>한개의 버튼에 여러 이벤트 적용하기</p>
+
+      <button id="myBtn5">요기</button>
+      <p id="result5"></p>
+    </section>
+
+    <section class="s6">
+      <p>window object의 eventlistener 사용</p>
+      <p>브라우저 resizing event</p>
+
+      <p id="result6"></p>
+    </section>
+
+    <section class="s7">
+      <p>각 값의 value가 어떻게 사용 되는가...</p>
+      <p>버튼 클릭시 계산되어 출력</p>
+
+      <button id="myBtn7">클릭</button>
+      <p id="result7"></p>
+    </section>
+
+    <section class="s8">
+      <p>eventlistener 영역 지정</p>
+
+      <div id="myDiv1">
+        <h2>Bubbling: 태그 이벤트가 하위에서 상위로 발생</h2>
+        <p id="myP1">클릭</p>
+      </div>
+      <div id="myDiv2">
+        <h2>Capturing: 태그 이벤트가 상위에서 하위로 발생</h2>
+        <p id="myP2">여기도 클릭</p>
+      </div>
+    </section>
+
+    <section class="s9">
+      <div id="myDIV">
+        <p>영역에서 온마우스 상태에서 이동시 랜덤숫자 발생</p>
+        <p>버튼 클릭 시 해당 이벤트 삭제로 중지됨.</p>
+        <button onclick="removeHandler()" id="myBtn9">기능 삭제</button>
+      </div>
+      <p id="result9"></p>
+    </section>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
