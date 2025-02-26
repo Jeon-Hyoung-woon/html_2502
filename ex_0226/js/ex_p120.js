@@ -104,7 +104,7 @@ var d = document;
 // result1 = result1 ? "합격" : "불합격";
 // d.getElementById("result6").innerHTML = `${result1}`;
 
-// //section7
+//section7
 // const fruit_1 = ["딸기", "바나나", "파인애플"];
 // const fruit_2 = ["바나나", "딸기", "오렌지", "키위"];
 // let fruit_3 = [];
