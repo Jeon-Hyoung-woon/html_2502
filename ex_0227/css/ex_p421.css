@@ -1,0 +1,260 @@
+section {
+  border: 1px solid black;
+  background-color: bisque;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+p,
+div {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.s1 #container ul {
+  border: 1px dotted blue;
+}
+
+.s2 #container > ul {
+  border: 1px dotted blue;
+}
+
+/* section3의 h1과 인접한 첫번째 ul에만 스타일 적용 */
+.s3 h1 + ul {
+  color: blue;
+  font-weight: bold;
+}
+
+.s4 h1 ~ ul {
+  color: brown;
+  font-weight: bold;
+}
+
+.s5 div + p {
+  color: blue;
+}
+
+.s6 li {
+  display: inline;
+  margin-right: 20px;
+}
+.s6 a[href] {
+  background: yellow;
+  text-decoration: none;
+  color: black;
+}
+
+.s7 a[target="_Blank"] {
+  padding-right: 30px;
+  background: url(../images/newwindow.png) no-repeat center right;
+}
+
+.s8 li {
+  display: inline;
+}
+
+.s8 .flat {
+  background: blue;
+  color: white;
+}
+
+.s8 [class~="button"] {
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px;
+}
+
+.s9 li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.s9 a[title|="us"] {
+  background: url(../images/us.png) no-repeat left center;
+  padding: 5px 25px;
+}
+
+.s9 a[title|="jap"] {
+  background: url(../images/jp.png) no-repeat left center;
+  padding: 5px 25px;
+}
+
+.s10 li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.s10 a[title^="eng"] {
+  background: url(../images/us.png) no-repeat left center;
+}
+
+.s10 a[title^="jap"] {
+  background: url(../images/jp.png) no-repeat left center;
+}
+
+.s10 a[title^="chin"] {
+  background: url(../images/ch.png) no-repeat left center;
+}
+
+.s10 a {
+  padding: 5px 25px;
+}
+
+.s11 ul {
+  list-style-type: square;
+}
+
+.s11 a[href$="hwp"] {
+  background: url(../images/hwp_icon.gif) center right no-repeat;
+  padding-right: 25px;
+}
+
+.s11 a[href$="xls"] {
+  background: url(../images/excel_icon.gif) no-repeat center right;
+  padding-right: 25px;
+}
+
+.s12 ul {
+  list-style-type: circle;
+}
+
+.s12 [href*="w3"] {
+  background: blue;
+  color: white;
+}
+
+.s13 [class~="accent"] {
+  border: 1px solid black;
+}
+
+.s14 li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.s14 a {
+  text-decoration: none;
+  color: black;
+}
+
+.s14 .navi a:link,
+.s14 .navi a:visited {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.s14 .navi a:hover,
+.s14 .navi a:focus {
+  background-color: #222;
+  color: #fff;
+}
+
+.s14 .navi a:active {
+  background-color: #f00;
+}
+
+.s15 input:disabled {
+  background: #ddd;
+  border: 1px #ccc solid;
+}
+
+.s15 input:checked + span {
+  color: blue;
+}
+
+.s16 table {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.s16 tr td {
+  border: 1px solid black;
+}
+
+.s16 table tr:nth-child(2n + 1) {
+  background: lightgray;
+  color: brown;
+}
+
+.s17 {
+  overflow: hidden;
+}
+
+.s17 ul {
+  list-style-type: none;
+}
+
+.s17 li {
+  float: left;
+  padding: 5px 25px;
+  border: 1px solid black;
+}
+
+.s17 a {
+  text-decoration: none;
+}
+
+.s17 ul.navi li:first-child {
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.s17 ul.navi li:last-child {
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.s18 ul li {
+  margin: 15px;
+}
+
+.s18 li.hot::after {
+  content: "NEW!!";
+  font-size: x-small;
+  padding: 2px 4px;
+  margin: 0 10px;
+  border-radius: 4px;
+  background: #f00;
+  color: #fff;
+}
+
+.s18 li.hot2::before {
+  content: "NEW!!";
+  font-size: x-small;
+  padding: 2px 4px;
+  margin: 0 10px;
+  border-radius: 4px;
+  background: #f00;
+  color: #fff;
+}
+
+.s19 img.hover:hover {
+  /* border: 5px solid black; */
+  outline: 5px solid black;
+  outline-offset: -5px;
+}
+
+.s20 a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.s20 a:visited {
+  color: black;
+}
+
+.s20 nav a:active {
+  color: blue;
+}
+
+.s20 ul {
+  border: 1px solid black;
+}
+
+.s20 li {
+  display: inline;
+  margin-right: 20px;
+}

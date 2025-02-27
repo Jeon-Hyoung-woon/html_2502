@@ -1,6 +1,6 @@
 var d = document;
 
-//section9
+// // section9
 // window.open(
 //   "winpopup.html",
 //   "pop1",
