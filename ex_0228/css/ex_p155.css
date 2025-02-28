@@ -2,3 +2,35 @@ section {
   border: 1px solid black;
   background: bisque;
 }
+
+h1,
+h2,
+h3,
+p,
+div {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.s2 div {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.s2 button {
+  background-color: brown;
+  color: white;
+  margin-top: 85px;
+  margin-left: 20px;
+}
+
+button {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.s6 img {
+  width: 200px;
+  height: 200px;
+}

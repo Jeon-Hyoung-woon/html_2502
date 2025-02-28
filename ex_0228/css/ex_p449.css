@@ -1,0 +1,472 @@
+section {
+  border: 1px solid black;
+  background: bisque;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+h1,
+h2,
+h3,
+p,
+div {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+/*section1, 452Page 이미지 이동*/
+.s1 div {
+  display: inline-block;
+  padding: 10px;
+}
+
+.s1 .movex:hover {
+  transform: translateX(50px);
+}
+
+.s1 .movey:hover {
+  transform: translateY(20px);
+}
+
+.s1 .movexy:hover {
+  transform: translate(10px, 20px);
+}
+
+/*section2, 453Page 이미지 확대/축소 */
+.s2 div {
+  display: inline-block;
+  padding: 10px;
+}
+
+.s2 .scalex:hover {
+  transform: scaleX(1.2);
+}
+.s2 .scaley:hover {
+  transform: scaleY(1.2);
+}
+.s2 .scale:hover {
+  transform: scale(0.7);
+}
+
+/* section3, 455Page_1 이미지 2차원 회전 */
+.s3 div {
+  display: inline-block;
+  padding: 10px;
+}
+
+.s3 .rotate1:hover {
+  transform: rotate(20deg);
+}
+.s3 .rotate2:hover {
+  transform: rotate(-40deg);
+}
+
+/* section4, 455Page_2 이미지 3차원 회전 */
+.s4 {
+  height: 420px;
+}
+.s4 div {
+  display: inline-block;
+  padding: 5px;
+}
+
+.s4 div.origin {
+  perspective: 200px;
+}
+
+.s4 .rotatex {
+  transform: rotateX(45deg);
+}
+
+.s4 .rotatey {
+  transform: rotateY(45deg);
+}
+.s4 .rotatez {
+  transform: rotateZ(45deg);
+}
+.s4 .rotatexyz {
+  transform: rotate3d(2.5, 1.2, -1.5, 45deg);
+}
+
+/* section5 457Page 이미지 x,y축 왜곡 */
+.s5 div {
+  display: inline-block;
+  padding: 5px;
+}
+
+.s5 .skewx:hover {
+  transform: skewX(30deg);
+}
+.s5 .skewy:hover {
+  transform: skewY(15deg);
+}
+.s5 .skewxy:hover {
+  transform: skew(-25deg, -15deg);
+}
+
+/* section6 459Page 이미지 변형시작점 지정 */
+.s6 {
+  height: 350px;
+}
+
+.s6 div {
+  display: inline-block;
+  padding: 0;
+}
+
+.s6 .ltop,
+.rtop,
+.lbottom,
+.rbottom {
+  border: 1px solid black;
+}
+.s6 .rose {
+  transform: rotateZ(10deg);
+}
+.s6 .ltop .rose {
+  transform-origin: left top;
+}
+.s6 .rtop .rose {
+  transform-origin: right top;
+}
+
+.s6 .lbottom .rose {
+  transform-origin: left bottom;
+}
+.s6 .rbottom .rose {
+  transform-origin: right bottom;
+}
+
+/* section7 460Page 이미지에 회전과 원근감주기 */
+.s7 div {
+  display: inline-block;
+  padding: 10px;
+}
+.s7 .rotatex {
+  border: 1px solid black;
+}
+.s7 #pers .rotatex {
+  perspective: 300px;
+}
+.s7 .rotatex img {
+  transform: rotateX(50deg);
+}
+
+/* section8 3차원 효과 적용 vs 미적용 */
+.s8 .box1,
+.box2 {
+  width: 150px;
+  height: 150px;
+}
+.s8 .box1 {
+  background: #82cbd8;
+  transform: rotateY(45deg);
+}
+
+.s8 .box2 {
+  background: #0d6097;
+  transform-origin: left top;
+  transform: rotateX(45deg);
+}
+
+.s8 #tr-style1 {
+  transform-style: flat;
+}
+.s8 #tr-style2 {
+  transform-style: preserve-3d;
+}
+.s8 div {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.s8 .container {
+  border: 1px solid black;
+  width: 200px;
+  height: 210px;
+  perspective: 200px;
+}
+
+/* section9 463Page 요소의 뒷면 표시 */
+.s9 div {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.s9 .box {
+  background: #82cbd8;
+  transform: rotateY(135deg);
+  width: 150px;
+  height: 150px;
+}
+
+.s9 .container {
+  perspective: 200px;
+}
+.s9 #back1 {
+  backface-visibility: hidden;
+}
+
+.s9 #back2 {
+  backface-visibility: visible;
+}
+
+/* section10 정해진 시간 동안 높이, 너비 변경 */
+.s10 div {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  border: 1px solid black;
+  transition-property: width, height;
+  transition-duration: 2s, 1s;
+}
+
+.s10 .trans:hover {
+  width: 200px;
+  height: 120px;
+}
+
+/* section11 배경 색과 회전 높이 너비바꾸기 */
+.s11 .tr1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+  transition-property: background-color, transform, width, height;
+  transition-duration: 2s, 3s;
+}
+
+.s11 .tr1:hover {
+  width: 200px;
+  height: 200px;
+  background-color: #ff6e5f;
+  transform: rotate(180deg);
+}
+
+/* section12 469Page 특정 시간 후 트랜지션 실행 */
+.s12 div.box {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.s12 div#delay {
+  border: 1px solid black;
+  background-color: gray;
+  transition-duration: 3s;
+  transition-delay: 1s;
+}
+
+.s12 div#no-delay {
+  border: 1px solid red;
+  background-color: lightgray;
+  transition-duration: 3s;
+}
+
+.s12 #ex {
+  position: relative;
+}
+.s12 #ex:hover .box {
+  transform: rotate(720deg);
+}
+
+/* section13 transition 속성 한번에 표기하기 */
+.s13 .tr1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 1px solid black;
+  transition: 2s ease-in;
+}
+
+.s13 .tr1:hover {
+  width: 100px;
+  height: 100px;
+  background-color: #ff6e5f;
+  transform: rotate(720deg);
+}
+
+/* section14 2개 이상의 transition 속성 연결하여 사용하기 */
+.s14 div {
+  width: 100px;
+  height: 100px;
+  margin: 100px;
+  background-color: #0094ff;
+}
+
+.s14 .box {
+  transition: 2s ease-in;
+}
+.s14 .box:hover {
+  transform: scale(2) perspective(120px) rotateX(180deg);
+}
+
+/* section15 rectangle -> circle로 변하는 애니메이션 */
+.s15 div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: change-bg;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes change-bg {
+  from {
+    background-color: blue;
+    border: 1px solid black;
+  }
+  to {
+    background-color: #a5d6ff;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+}
+
+/* section16 @keyframe을 사용해 애니메이션 지정 */
+.s16 .box1 {
+  background-color: #4cff00;
+  border: 1px solid black;
+  animation-name: shape;
+  animation-duration: 3s;
+  width: 50px;
+  height: 50px;
+  animation-fill-mode: forwards;
+}
+
+.s16 .box2 {
+  background-color: #8f06b0;
+  border: 1px solid black;
+  animation-name: rotate;
+  animation-duration: 3s;
+  width: 50px;
+  height: 50px;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shape {
+  from {
+    border: 1px solid black;
+  }
+  to {
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+}
+
+/* section17 반복 애니메이션 */
+.s17 .box {
+  margin-top: 50px;
+  margin-left: 100px;
+  padding: 20px;
+  height: 60px;
+  animation-name: moving;
+  animation-duration: 3s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+
+@keyframes moving {
+  from {
+    width: 200px;
+    background-color: #faef7c;
+    opacity: 0.5;
+    transform: scale(0.5) rotate(15deg);
+  }
+  to {
+    width: 400px;
+    background-color: #ff9400;
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+/* section18 두 개 이상의 애니메이션 동시에 실행하기 */
+.s18 .box {
+  width: 60px;
+  height: 60px;
+  margin: 60px;
+  animation: rotate 1.5s infinite, background 1.5s infinite alternate;
+}
+
+@keyframes rotate {
+  from {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
+  }
+  to {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
+  }
+}
+
+@keyframes background {
+  from {
+    background: red;
+  }
+  50% {
+    background: green;
+  }
+  to {
+    background-color: blue;
+  }
+}
+
+/* section19 486Page Quiz_1 사각형 속성을 green에서 yellow로 바꾸기 */
+.s19 div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: green;
+  transition: 1s;
+  transition-property: background;
+}
+
+.s19 div.rec:hover {
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+/* section20 486Page Quiz_2 마우스 오버시 이미지가 변경되도록 수정 */
+.s20 {
+  height: 400px;
+}
+
+.s20 div.hov img {
+  transition: 1s;
+  perspective: 200px;
+}
+
+.s20 div.hov img:hover {
+  transform: rotate(20deg);
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/* section21 487Page Quiz_3 트랜지션, 폼 속성 사용 오버시 효과적용 */
+.s21 {
+  height: 700px;
+  text-align: center;
+}
+.s21 img {
+  transition-property: all;
+  transition: 1s;
+}
+
+.s21 img:hover {
+  transform: scale(1.5);
+  transform-origin: left top;
+  box-shadow: 5px 5px 3px black;
+}
