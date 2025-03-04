@@ -52,11 +52,9 @@ footer {
 
 .con2 {
   width: 33.3%;
-}
-
-.con2 img {
-  width: 33.3%;
-  height: 200px;
+  background-image: url(../images/g1.jpeg);
+  background-size: 100% 100%;
+  text-align: center;
 }
 
 .con3 {
