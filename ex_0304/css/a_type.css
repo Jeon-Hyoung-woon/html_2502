@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background-color: #ffad99;
+}
+
+.slidecontent {
+  height: 300px;
+  background-color: #ff8080;
+}
+
+.content {
+  height: 200px;
+  background-color: #ffcccc;
+}
+
+footer {
+  height: 100px;
+  background-color: #ffad99;
+}
