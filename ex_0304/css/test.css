@@ -1,0 +1,70 @@
+nav {
+  position: relative;
+  width: 100%;
+}
+
+/* 메인 메뉴 스타일링 */
+.main-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+.main-menu li {
+  padding: 15px 30px;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* 서브메뉴 컨테이너 */
+.sub-menu-container {
+  position: absolute;
+  width: 100%;
+  display: none;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+/* 서브메뉴 스타일링 */
+.sub-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-menu li {
+  padding: 8px 15px;
+}
+
+.sub-menu li a {
+  text-decoration: none;
+  color: #666;
+}
+
+/* 호버 효과 */
+nav:hover .sub-menu-container {
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+}
+
+/* 메인메뉴 호버 효과 */
+.main-menu li:hover {
+  background-color: #e8e8e8;
+}
+
+/* 서브메뉴 호버 효과 */
+.sub-menu li:hover a {
+  color: #000;
+}

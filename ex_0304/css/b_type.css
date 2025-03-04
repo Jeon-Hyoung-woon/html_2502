@@ -36,4 +36,59 @@ footer {
 .content {
   height: 200px;
   background-color: #666600;
+  display: flex;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  background-color: aqua;
+  float: left;
+}
+
+.nav {
+  width: 800px;
+  height: 100px;
+  background-color: aquamarine;
+  float: right;
+}
+
+.con1 {
+  width: 33.3%;
+  background-color: gray;
+}
+
+.con2 {
+  width: 33.3%;
+  background-color: bisque;
+}
+
+.con3 {
+  width: 33.3%;
+  background-color: gray;
+}
+
+footer div.inner {
+  display: flex;
+}
+
+.f1 {
+  width: 200px;
+  background-color: bisque;
+}
+
+.fright {
+  flex-direction: column;
+}
+
+.f2 {
+  width: 1000px;
+  height: 50px;
+  background-color: aqua;
+}
+
+.f3 {
+  width: 1000px;
+  height: 50px;
+  background-color: blue;
 }

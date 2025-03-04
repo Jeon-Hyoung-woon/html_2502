@@ -14,17 +14,149 @@ header {
   background-color: #ffad99;
 }
 
-.slidecontent {
+.slideContent {
   height: 300px;
-  background-color: #ff8080;
+  position: relative;
 }
 
 .content {
   height: 200px;
   background-color: #ffcccc;
+  display: flex;
 }
 
 footer {
   height: 100px;
   background-color: #ffad99;
+  display: flex;
+}
+
+.logo {
+  background-color: blue;
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+
+.nav {
+  width: 500px;
+  height: 100px;
+  background-color: aqua;
+  float: right;
+}
+
+.con1 {
+  width: 33.4%;
+  background-color: aquamarine;
+}
+
+.con2 {
+  width: 33.3%;
+}
+
+.con2 img {
+  width: 33.3%;
+  height: 200px;
+}
+
+.con3 {
+  width: 33.3%;
+  background-color: aquamarine;
+}
+
+.f1 {
+  width: 20%;
+  background-color: blue;
+}
+
+.f2 {
+  width: 60%;
+  background-color: lightcoral;
+}
+
+.f3 {
+  width: 20%;
+  background-color: aqua;
+}
+
+.main {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu {
+  position: relative;
+  margin-top: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+  outline: 1px solid black;
+  outline-offset: -1px;
+  font-weight: bolder;
+  min-width: 110px;
+  text-align: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+}
+
+.sub {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  background-color: white;
+  left: 0;
+  top: 100%;
+  padding: 10px 0;
+  min-width: 108px;
+  line-height: 2em;
+  border: 1px solid black;
+}
+
+.menu:hover .sub {
+  display: block;
+  z-index: 2;
+}
+
+.menu:hover {
+  background-color: black;
+}
+
+.menu a:hover {
+  color: white;
+}
+
+.sub a:hover {
+  color: black;
+}
+
+div.select {
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
+}
+
+div.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div.image img {
+  width: 1200px;
+  height: 300px;
+}
+
+button {
+  border: none;
+  opacity: 0.6;
+  margin-left: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+  box-shadow: 1px 1px 4px;
 }

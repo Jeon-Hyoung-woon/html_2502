@@ -18,12 +18,16 @@ header {
   width: 200px;
   height: calc(100% - 120px);
   background-color: bisque;
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
   width: 400px;
   height: calc(100% - 120px);
   background-color: brown;
+  display: flex;
+  flex-direction: column;
 }
 
 .slide {
@@ -36,4 +40,57 @@ footer {
   width: 100%;
   height: 120px;
   background-color: lightcoral;
+  display: flex;
+}
+
+header .logo {
+  height: 15%;
+  background-color: gray;
+}
+
+.nav {
+  height: calc(100% - 120px);
+  background-color: blue;
+}
+
+.con1 {
+  height: 20%;
+  background-color: green;
+}
+
+.con2 {
+  height: 30%;
+  background-color: yellowgreen;
+}
+
+.con3 {
+  height: 30%;
+  background-color: green;
+}
+
+.con4 {
+  height: 20%;
+  background-color: yellowgreen;
+}
+
+footer .logo {
+  width: 200px;
+  background-color: yellow;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.f1 {
+  width: 100%;
+  background-color: gray;
+  height: 60px;
+}
+.f2 {
+  width: 100%;
+  background-color: blue;
+  height: 60px;
 }
